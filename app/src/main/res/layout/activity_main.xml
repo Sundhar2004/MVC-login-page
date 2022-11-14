@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="15dp"
+    android:background="@drawable/background"
     android:gravity="center"
     tools:context=".MainActivity">
     <TextView
@@ -14,6 +15,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Login From"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="serif"
         android:textSize="25sp"
         android:layout_marginBottom="45dp"/>
 
@@ -31,7 +35,7 @@
         android:textColor="@color/black"
         android:textStyle="bold"
         android:padding="5dp"
-        android:text="Email :" />
+        android:text="Email         :" />
 
     <EditText
         android:id="@+id/et_email"
@@ -39,7 +43,8 @@
         android:layout_height="wrap_content"
         android:padding="5dp"
         android:ems="10"
-        android:hint="enter your email">
+        android:hint="enter your email"
+        android:layout_marginLeft="0dp">
 
     </EditText>
 
@@ -80,7 +85,7 @@
         android:layout_marginTop="15dp"
         android:text="Login"
         android:textAllCaps="false"
-        android:backgroundTint="@color/teal_200"
+        android:backgroundTint="#F44336"
         app:cornerRadius="18dp"/>
 
 </LinearLayout>
